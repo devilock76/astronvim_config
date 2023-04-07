@@ -36,5 +36,9 @@ return {
     config = function()
       require("codegpt.config")
     end
+  },
+  {
+    "EdenEast/nightfox.nvim",
+    lazy = false
   }
 }
