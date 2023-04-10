@@ -75,5 +75,15 @@ return {
         }
       }
     end
+  },
+  {
+    'mrjones2014/smart-splits.nvim',
+    event = "VeryLazy",
+    config = function()
+      vim.keymap.set('n', '<C-H>', require('smart-splits').resize_left)
+      vim.keymap.set('n', '<C-J>', require('smart-splits').resize_down)
+      vim.keymap.set('n', '<C-K>', require('smart-splits').resize_up)
+      vim.keymap.set('n', '<C-L>', require('smart-splits').resize_right)
+    end
   }
 }
