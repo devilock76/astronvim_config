@@ -80,10 +80,10 @@ return {
     'mrjones2014/smart-splits.nvim',
     event = "VeryLazy",
     config = function()
-      vim.keymap.set('n', '<C-H>', require('smart-splits').resize_left)
-      vim.keymap.set('n', '<C-J>', require('smart-splits').resize_down)
-      vim.keymap.set('n', '<C-K>', require('smart-splits').resize_up)
-      vim.keymap.set('n', '<C-L>', require('smart-splits').resize_right)
+      vim.keymap.set('n', '<C-[>', require('smart-splits').resize_left)
+      vim.keymap.set('n', '<C-o>', require('smart-splits').resize_down)
+      vim.keymap.set('n', '<C-p>', require('smart-splits').resize_up)
+      vim.keymap.set('n', '<C-]>', require('smart-splits').resize_right)
     end
   }
 }
