@@ -22,7 +22,7 @@ return {
     ["<leader>b"] = { name = "Buffers" },
     -- quick save
     -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    ["<Tab>"] = { "<C-w>w" },
+    ["<Tab>"] = { "<C-W>w" },
     -- ["<leader>fs"] = {
     --   function()
     --     require("telescope").extensions.live_grep_args.live_grep_args()
